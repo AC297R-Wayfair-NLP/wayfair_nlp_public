@@ -1,0 +1,16 @@
+
+# Ignore everything
+*
+# Except for those ending with slash (i.e. directories)
+!*/
+
+# And do not ignore the following file types
+!.gitignore
+!pyproject.toml
+!poetry.lock
+*.venv/
+!*.md
+!*.py
+!*.ipynb
+*.ipynb_checkpoints
+

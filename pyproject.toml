@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "wayfair-nlp-public"
+version = "0.1.0"
+description = "Wayfair NLP project for AC297R at Harvard"
+authors = [
+    "Sangyoon Park <sangyoonpark@g.harvard.edu>",
+    "Alex Spiride <aspiride@g.harvard.edu>",
+    "Erin Yang <qyang@g.harvard.edu>",
+    "Jason Zhang <duozhang@g.harvard.edu>",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyter = "^1.0.0"
+ipykernel = "^5.3.4"
+numpy = "<1.19.0"
+pandas = "^1.1.1"
+scikit-learn = "^0.23.2"
+matplotlib = "^3.3.1"
+pyarrow = "^1.0.1"
+torch = "^1.6.0"
+tqdm = "^4.50.2"
+transformers = "^3.3.1"
+nltk = "^3.5"
+textblob = "^0.15.3"
+gensim = "^3.8.3"
+spacy = "^2.3.4"
+en_core_web_sm = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz" }
+tensorflow = "^2.3.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
