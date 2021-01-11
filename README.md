@@ -1,6 +1,10 @@
 # Harvard-Wayfair NLP
 
-This repo contains public source code and demo notebooks for a data science capstone project at Harvard (Fall 2020). The project aimed to help Wayfair, a major online retailer selling furniture and home goods, to examine whether free-text reviews contain signals that improve the prediction of return rates. Methods and findings of the project are summarized in this blog post.
+This repo contains public source code and demo notebooks for a data science capstone project
+at Harvard (Fall 2020). The project aimed to help Wayfair, a major online retailer selling
+furniture and home goods, to examine whether free-text reviews contain signals that improve
+the prediction of return rates. Methods and findings of the project are summarized in
+[this](https://towardsdatascience.com/read-the-reviews-analyzing-nlp-signals-of-wayfair-products-7c31b63cd369) blog post.
 
 ## Team Members
 
